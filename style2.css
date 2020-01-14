@@ -1,0 +1,73 @@
+#playGame{
+        position: relative;
+        font-family: arial;
+        width: 200px;
+        height: 40px;
+        left: 200px;
+        top:200px;
+
+}
+
+
+#rock{
+        position : absolute;
+        font-family: arial;
+        width: 100px;
+        height:50px;
+        bottom:250px;
+        left:250px;
+       
+        
+}
+
+#paper{
+    position : absolute;
+    font-family: arial;
+    width: 100px;
+    height: 50px;
+    bottom:250px;
+    left:480px;
+    
+    
+}
+#scissors{
+    position : absolute;
+    font-family: arial;
+    width: 100px;
+    height: 50px;
+    bottom:250px;
+    left:710px;
+
+    
+}
+
+.Pic{
+    position: relative;
+    left:180px;
+    bottom: -90px;
+}
+
+
+
+h1{
+    position: absolute;
+    left: 350px;
+    font-family: arial;
+
+
+}
+#p{
+    position : absolute;
+    bottom: 100px;
+    left: 250px;
+}
+
+#newgame{
+    position: relative;
+    left: 520px;
+    top: 200px;
+}
+
+#p {
+    font-family : arial;
+}
