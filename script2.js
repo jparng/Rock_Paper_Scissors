@@ -19,7 +19,7 @@
 
         }
 
-        function playRound(playerChoice, computerChoice) {
+        function playRound(playerChoice, computerChoice) { //Calculates whether user or computer wins the round
             playerChoice = playerChoice.toLowerCase();
             gameover.textContent = "";
             switch(playerChoice) {
@@ -55,7 +55,7 @@
         
        
     
-    function game(e){
+    function game(e){ //When either computer or user scores points, winner is declared when 5 points are earned.
             let roundResult = playRound(this.id, computerPlay());
             pScore.textContent = `Your score : ${playerScore}`;
             cScore.textContent = `Computer score : ${computerScore}`;
